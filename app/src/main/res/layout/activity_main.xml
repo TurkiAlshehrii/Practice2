@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout Declaration -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/progrramer" />
+    <TextView
+
+        android:padding="5dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="16dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello , im turki alshehri"
+        android:textColor="@color/white"
+/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="im a junior programmer"
+        android:textStyle="italic"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="270dp"
+        android:padding="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:layout_marginLeft="4dp"
+        android:text="programming skills :-"
+        android:textColor="@color/white"
+        android:layout_marginTop="310dp"
+        android:padding="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="- JAVA"
+        android:textColor="@color/white"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="355dp"
+        android:padding="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginLeft="4dp"
+        android:text="- sql"
+        android:textColor="@color/white"
+        android:layout_marginTop="385dp"
+        android:padding="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="- Dart"
+        android:textColor="@color/white"
+        android:layout_marginTop="415dp"
+        android:layout_marginLeft="4dp"
+        android:padding="16dp"/>
+    <View
+        android:layout_width="6dp"
+        android:layout_marginLeft="7dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="340dp"
+        android:layout_height="120dp"
+        android:background="@color/black" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="550dp"
+       android:background="@color/white" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="9dp"
+        android:text="thanks tuwaiq academy and Eng.shaima"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>
+
