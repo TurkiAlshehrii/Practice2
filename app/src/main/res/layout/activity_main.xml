@@ -101,7 +101,5 @@
         android:layout_marginLeft="9dp"
         android:text="thanks tuwaiq academy and Eng.shaima"
         android:textSize="25dp"
-        android:textColor="@color/white"
-        />
-</RelativeLayout>
-
+        android:textColor="@color/white" />
+    </RelativeLayout>
